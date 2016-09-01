@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="app.css">
+    <title>Movie API</title>
+  </head>
+  <body>
+    <h1>Your Favorite Movies</h1>
+    <h3>Enter Movie Name:</h3>
+    <input type="text" value="" id='movie_input'>
+    <button type="button" name="button" id = 'get_movie'>Submit</button>
+    <div class="result">
+        <div class="body" display: "inline-block">
+      <h3>Movie Name:</h3>
+      <h4 id="movieTitle"></h4>
+    </div>
+      <img src="" id="moviePosterDefault"/>
+      <h3>Year:</h3>
+      <h4 id="movieYear"></h4>
+      <h3>Rating:</h3>
+      <h4 id="movieRating"></h4>
+      <h3>Plot:</h4>
+       <h4 id="moviePlot"></h4>
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-rc1/jquery.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
